@@ -35,6 +35,8 @@ maas_oauth_consumer_key={consumer_key}
 maas_oauth_consumer_secret=''
 maas_oauth_token_key={token_key}
 maas_oauth_token_secret={token_secret}
+retry_count = 10
+retry_count_interval = 15
 """ 
 
 CHANGE_LICENSE_TPL = """
